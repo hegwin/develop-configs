@@ -1,0 +1,11 @@
+--type-add
+ruby=.haml,.ru
+--type-add
+css=.scss,.sass,.less
+--type-add
+js=.coffee,.jsx
+--ignore-dir=log
+--ignore-dir=tmp
+--ignore-dir=vendor
+--ignore-dir=.idea
+--ignore-dir=public/assets

@@ -1,0 +1,12 @@
+[user]
+	name = hegwin
+	email = zwt315@163.com
+[color]
+	ui = true
+[alias]
+	co = checkout
+	cm = commit
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+	pushall = push --recurse-submodules=on-demand
+[core]
+	editor = gvim -f
