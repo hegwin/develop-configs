@@ -1,5 +1,5 @@
 --type-add
-ruby=.haml,.ru
+ruby=.haml,.ru,.slim
 --type-add
 css=.scss,.sass,.less
 --type-add
