@@ -9,3 +9,5 @@ js=.coffee,.jsx
 --ignore-dir=vendor
 --ignore-dir=.idea
 --ignore-dir=public/assets
+--ignore-dir=node_modules
+--ignore-dir=coverage
