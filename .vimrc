@@ -30,6 +30,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'tommcdo/vim-lion'
 
 call vundle#end()
 
