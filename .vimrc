@@ -31,6 +31,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'tommcdo/vim-lion'
+Plugin 'slim-template/vim-slim'
 
 call vundle#end()
 
