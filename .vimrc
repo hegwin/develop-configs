@@ -32,6 +32,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'tommcdo/vim-lion'
 Plugin 'slim-template/vim-slim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 
@@ -59,3 +60,10 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 colorscheme molokai
 set guifont=Monaco\ 11
 
+autocmd BufNewFile,BufRead *.wxml set syntax=vue
+autocmd BufNewFile,BufRead *.wxss set syntax=scss
+autocmd BufNewFile,BufRead *.wxs  set syntax=javascript
+
+" To enable highlighting and stripping whitespace on save by default
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
