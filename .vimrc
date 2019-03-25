@@ -63,6 +63,7 @@ set guifont=Monaco\ 11
 autocmd BufNewFile,BufRead *.wxml set syntax=vue
 autocmd BufNewFile,BufRead *.wxss set syntax=scss
 autocmd BufNewFile,BufRead *.wxs  set syntax=javascript
+autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
 
 " To enable highlighting and stripping whitespace on save by default
 let g:better_whitespace_enabled=1
