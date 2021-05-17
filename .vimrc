@@ -59,7 +59,8 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 
 
 colorscheme molokai
-set guifont=Monaco\ 11
+" Font size 12 for Mackbook 13', 11 for Macbook 15'
+set guifont=Monaco:h12
 
 autocmd BufNewFile,BufRead *.wxml set syntax=vue
 autocmd BufNewFile,BufRead *.wxss set syntax=scss
