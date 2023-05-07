@@ -11,3 +11,4 @@ js=.coffee,.jsx
 --ignore-dir=public/assets
 --ignore-dir=node_modules
 --ignore-dir=coverage
+--ignore-file=ext:svg
