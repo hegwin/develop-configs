@@ -35,6 +35,7 @@ Plugin 'tommcdo/vim-lion'
 Plugin 'slim-template/vim-slim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'rust-lang/rust.vim'
+Plugin 'digitaltoad/vim-pug'
 
 call vundle#end()
 
